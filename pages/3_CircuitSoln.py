@@ -23,7 +23,7 @@ st.markdown(
 
     Note the use of adders in this circuit due to the powerful nature of the 
     QFT adder which scales linearly in depth with the number of qubits.
-    ![Adder Table](https://ibb.co/hRMfGm5)
+    ![Adder Table](https://i.ibb.co/SXxrk3T/1.png)
 
     """
 )
