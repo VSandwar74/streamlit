@@ -18,7 +18,7 @@ st.markdown(
 
     ### Use Case:
     In the Capgemini/Hartform/Quantinuum challenge we're concentrated on a specific use case–the insurance industry. Thus with these assumtpions 
-    in hand, our goal was to minimize the depth while utilizing a reasonable amount of ancillary/auxillary quibits
+    in hand, our goal was to minimize the depth while utilizing a reasonable amount of ancillary/auxillary quibits.
 
     ### Our Approach:
     At a high level we studied the theory behind the classical algorithm and the quantum algorithm given to us. We then proceeded to
