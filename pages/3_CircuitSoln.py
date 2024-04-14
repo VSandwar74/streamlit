@@ -2,7 +2,7 @@ import streamlit as st
 
 st.markdown(
     """
-    #Here's the default circuit we were given:
+    # Here's the default circuit we were given:
 
     ![Default Circuit](https://i.ibb.co/fFt6138/Screenshot-2024-04-14-at-9-57-23-AM.png)
 
