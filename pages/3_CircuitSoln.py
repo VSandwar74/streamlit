@@ -6,7 +6,12 @@ st.markdown(
 
     ![Default Circuit](https://i.ibb.co/fFt6138/Screenshot-2024-04-14-at-9-57-23-AM.png)
 
-    HERE!
+    To optimize the QMC process, the quantum gates can be parallelized, reducing the maximum amount of gates per qubit path, 
+    thus reducing circuit depth. The first step of this is to deconvolve the probability qubits into separate smaller sets of qubits
+    which can be handled separately. We then use the qiskit prob functions from the finance subpackage.
+    This allows us to benefit from the fact that lower numbers of qubits have drastically quicker runtimes because of the exponential nature. 
+    The |0> qubits are rotated and handled at the same time separately to reach their desired state, and are then added together in adder circuits. This then reconvolves the computed amplitudes from each qubit, giving a distinction    While initially, this creates a high cost to computing and is less efficient than the original model, when scaled up to higher counts of qubits, this approach has incredibly reduced circuit depth with a fifth of the circuit depth at 16 qubits.
+
 
 
     # And here's the implementation we designed:
