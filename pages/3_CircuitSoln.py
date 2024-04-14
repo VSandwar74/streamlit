@@ -19,7 +19,7 @@ st.markdown(
 
     # And here's the implementation we designed:
 
-        
+    ![Small circuit](https://i.ibb.co/GH1LMPk/Screenshot-2024-04-14-at-11-59-50-AM.png)
 
     Note the use of adders in this circuit due to the powerful nature of the 
     QFT adder which scales linearly in depth with the number of qubits.
