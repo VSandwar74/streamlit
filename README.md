@@ -1,6 +1,6 @@
 # Convolutional Quantum Monte Carlo - YQuantum '24
 
-- ![Vishakh Sandwar](https://github.com/VSandwar74)
+- [Vishakh Sandwar](https://github.com/VSandwar74)
 - Yanni Trimikliniotis
 - Jakub Bester
 
